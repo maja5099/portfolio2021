@@ -60,7 +60,6 @@ header .logo {
 }
 
 /*****SPLASH BILLEDE*****/
-
 @media (orientation: portrait) and (min-width: 500px) {
   #splash_section {
     width: 100%;
@@ -86,11 +85,7 @@ header .logo {
 }
 
 
-
-
-
 /*****GRID MED 2 KOLONNER PLACERET PÅ MIDTEN*****/
-
 @media only screen and (min-width: 600px) {
   #main {
     display: grid;
@@ -112,7 +107,6 @@ header .logo {
 }
 
 /*****GRID MED 1 KOLONNE PLACERET PÅ MIDTEN*****/
-
 @media (min-width: 700px) {
   #second_section .section_wrapper {
     display: grid;
@@ -129,7 +123,6 @@ header .logo {
 */
 
 /*****FOOTER*****/
-
 @media (min-width: 700px) {
   #footer_section .section_wrapper {
     display: grid;
@@ -155,10 +148,21 @@ header .logo {
   margin: 20px;
 }
 
+/*****HOVER EFFEKTER*****/
 #first_section img:hover {
   filter: grayscale(100%);
 }
 
 #second_section img:hover {
   filter: grayscale(100%);
+}
+
+/*****FIRST SECTION*****/
+#first_section img {
+  border: 5px solid #124620;
+}
+
+/*****SECOND SECTION*****/
+#second_section img {
+  border: 5px solid #124620;
 }
