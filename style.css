@@ -3,3 +3,24 @@ img {
   width: 100%;
   height: auto;
 }
+
+/*****GRID MED 2 KOLONNER PLACERET PÅ MIDTEN*****/
+@media only screen and (min-width: 600px) {
+  #main {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  }
+
+  #main > section {
+    grid-column: 2/3;
+  }
+}
+
+@media (min-width: 700px) {
+  #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+}
