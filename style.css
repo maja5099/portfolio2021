@@ -24,3 +24,13 @@ img {
     text-align: center;
   }
 }
+
+/*****GRID MED 1 KOLONNE PLACERET PÅ MIDTEN*****/
+@media (min-width: 700px) {
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+}
