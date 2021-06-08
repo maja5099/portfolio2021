@@ -154,3 +154,11 @@ header .logo {
   display: inline-grid;
   margin: 20px;
 }
+
+#first_section img:hover {
+  filter: grayscale(100%);
+}
+
+#second_section img:hover {
+  filter: grayscale(100%);
+}
