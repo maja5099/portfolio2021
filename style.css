@@ -50,12 +50,15 @@ img {
 
 #footer_section {
   background-color: #82a177;
+  color: white;
+  display: block;
 }
 
 #footer_section img {
-  height: 5rem;
+  height: 50px;
   width: auto;
   display: inline-block;
+  margin: 20px;
 }
 
 /*****SPLASH BILLEDE*****/
