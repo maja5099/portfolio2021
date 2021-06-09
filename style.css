@@ -151,6 +151,7 @@ header .logo {
 /*****HOVER EFFEKTER*****/
 #first_section img:hover {
   filter: grayscale(100%);
+  border: 5px solid #ef00bf;
 }
 
 #second_section img:hover {
