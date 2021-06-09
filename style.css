@@ -16,7 +16,7 @@ p {
   font-family: "Futura PT book";
 }
 
-/*****HEADER*****/
+/*****HEADER SECTION*****/
 header {
   position: static;
   top: 0;
@@ -59,7 +59,7 @@ header .logo {
   margin-bottom: 0.5rem;
 }
 
-/*****SPLASH BILLEDE*****/
+/*****SPLASH SECTION*****/
 @media (orientation: portrait) and (min-width: 500px) {
   #splash_section {
     width: 100%;
@@ -106,6 +106,15 @@ header .logo {
   }
 }
 
+@media (min-width: 700px) {
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+}
+
 /*****GRID MED 1 KOLONNE PLACERET PÅ MIDTEN*****/
 @media (min-width: 700px) {
   #second_section .section_wrapper {
@@ -122,7 +131,7 @@ header .logo {
 }
 */
 
-/*****FOOTER*****/
+/*****FOOTER SECTION*****/
 @media (min-width: 700px) {
   #footer_section .section_wrapper {
     display: grid;
