@@ -1,3 +1,4 @@
+/*****GENEREL*****/
 img {
   display: block;
   width: 100%;
@@ -159,12 +160,11 @@ header .logo {
 
 /*****HOVER EFFEKTER*****/
 #first_section img:hover {
-  filter: grayscale(100%);
   border: 5px solid #ef00bf;
 }
 
 #second_section img:hover {
-  filter: grayscale(100%);
+  border: 5px solid #ef00bf;
 }
 
 /*****FIRST SECTION*****/
