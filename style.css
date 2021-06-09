@@ -128,7 +128,7 @@ header .logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    text-align: center;
+    text-align: justify;
   }
 }
 
