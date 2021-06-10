@@ -17,6 +17,13 @@ p {
   font-family: "Futura PT book";
 }
 
+section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Den her centrerer, istedet for at bruge main med 1fr minmax (0, 1200px) 1fr*/
+
 /*****HEADER SECTION*****/
 @media (min-width: 600px) {
   header {
@@ -65,7 +72,6 @@ header .logo {
 }
 
 /*****SPLASH SECTION*****/
-
 #splash_section {
   width: 100%;
   height: 100vh;
@@ -81,12 +87,7 @@ header .logo {
   max-width: none;
 }
 
-section {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/*****THIRD SECTION (om mig og temaer)*****/
 @media (min-width: 700px) {
   #third_section .section_wrapper {
     display: grid;
@@ -111,7 +112,6 @@ section {
 #footer_section {
   background-color: #82a177;
   color: white;
-  /* display: block; */
 }
 
 #footer_section img {
@@ -130,12 +130,7 @@ section {
   border: 5px solid white;
 } */
 
-figure {
-  margin: 0;
-  padding: 0;
-}
-
-/*****GALLERY GRID*****/
+/*****GALLERY*****/
 @media (min-width: 1000px) {
   .gallery {
     margin: 150px;
@@ -147,6 +142,11 @@ figure {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
 
 .gallery {
