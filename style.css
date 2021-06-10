@@ -94,6 +94,7 @@ header .logo {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     text-align: justify;
+    margin-bottom: 150px;
   }
 }
 
