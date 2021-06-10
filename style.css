@@ -94,7 +94,7 @@ header .logo {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     text-align: justify;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
   }
 }
 
@@ -156,7 +156,7 @@ figure {
 }
 
 /*****FOOTER SECTION*****/
-@media (min-width: 1300px) {
+@media (min-width: 1000px) {
   #footer_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -172,23 +172,7 @@ figure {
   }
 }
 
-@media (max-width: 1300px) {
-  #footer_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-left: 150px;
-    margin-right: 300px;
-  }
-  #footer_section img {
-    height: 50px;
-    width: auto;
-    display: inline-grid;
-    margin: 20px;
-  }
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #footer_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr;
