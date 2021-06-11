@@ -153,7 +153,10 @@ header .logo {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     text-align: justify;
-    margin-bottom: 150px;
+  }
+  #third_section {
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 }
 
