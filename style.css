@@ -21,6 +21,7 @@ h1 {
   font-family: "Roboto";
   font-size: 7vw;
   margin: 0;
+  letter-spacing: 0.5vw;
 }
 
 section {
@@ -144,6 +145,15 @@ header .logo {
 #neon_section .col_right {
   background-color: #7c7f84;
   padding-top: 10vw;
+}
+
+#neon_section h2 {
+  letter-spacing: 3px;
+}
+
+#neon_section hr {
+  max-width: 30vw;
+  border: 1px white solid;
 }
 
 /*****THIRD SECTION (om mig og temaer)*****/
