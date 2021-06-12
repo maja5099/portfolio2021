@@ -296,6 +296,10 @@ figure {
   grid-row-end: 1;
 }
 
+#gallery_section p {
+  text-align: center;
+}
+
 /*****FOOTER SECTION*****/
 @media (min-width: 1000px) {
   #footer_section .section_wrapper {
