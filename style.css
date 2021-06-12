@@ -268,11 +268,6 @@ figure {
 }
 
 /*****HOVER EFFEKTER*****/
-/* #first_section img:hover {
-  border: 5px solid #ef00bf;
-} 
 #first_section img:hover {
-  filter: blur(0);
-  transition: 0.5s ease-in-out;
-} 
-*/
+  filter: opacity(0.5);
+}
