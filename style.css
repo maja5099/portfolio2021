@@ -158,7 +158,7 @@ header .logo {
   border: 1px white solid;
 }
 
-/*****THIRD SECTION (om mig og temaer)*****/
+/*****THIRD SECTION (temaer)*****/
 @media (min-width: 700px) {
   #third_section .section_wrapper {
     display: grid;
@@ -168,6 +168,20 @@ header .logo {
   }
   #third_section {
     margin-top: 50px;
+  }
+}
+
+/*****OM SECTION*****/
+@media (min-width: 700px) {
+  #om_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: justify;
+  }
+  #om_section {
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 }
 
