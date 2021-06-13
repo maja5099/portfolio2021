@@ -32,7 +32,7 @@ section {
 /*Den her centrerer, istedet for at bruge main med 1fr minmax (0, 1200px) 1fr*/
 
 /*****HEADER SECTION*****/
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   header {
     align-items: baseline;
   }
@@ -85,15 +85,20 @@ header .logo {
 
 #menuknap {
   display: inline-block;
+  position: fixed;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-left: 20rem;
 }
 
 #menu {
+  padding-top: 50px;
   list-style-type: none;
   transition: transform 0.3s;
   transform-origin: top right;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   #menuknap {
     display: none;
   }
