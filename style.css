@@ -36,6 +36,13 @@ section {
   header {
     align-items: baseline;
   }
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 0.4rem;
+    overflow-x: auto;
+  }
 }
 
 header {
@@ -48,18 +55,10 @@ header nav {
   justify-content: space-between;
 }
 
-header nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding-bottom: 0.4rem;
-  overflow-x: auto;
-}
-
 header nav ul li a {
   font-family: "Futura PT book";
   width: 100px;
-  /* border-radius: 10px; */
+  border-radius: 10px;
   display: inline-block;
   text-align: center;
   margin: 10px;
@@ -76,6 +75,35 @@ header a:hover {
 
 header .logo {
   width: 200px;
+}
+
+/*****BURGER*****/
+.hidden {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top right;
+}
+
+@media only screen and (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  #menu li {
+    display: inline-block;
+  }
 }
 
 /*****SPLASH SECTION*****/
