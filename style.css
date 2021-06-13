@@ -237,7 +237,7 @@ header .logo {
   .gallery {
     margin: 150px;
   }
-  .billed_tekst {
+  .tekst1 {
     top: 75px;
     left: 45px;
     padding-left: 30px;
@@ -250,12 +250,26 @@ header .logo {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .billed_tekst {
+  .tekst1 {
     top: 75px;
     left: 45px;
     padding-left: 30px;
     padding-right: 30px;
   }
+}
+
+#billed_tekst {
+  position: absolute;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#billed_tekst:hover {
+  color: #ef00bf;
+  border: 2px solid #ef00bf;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 figure {
@@ -300,14 +314,6 @@ figure {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 3;
-}
-
-.billed_tekst {
-  position: absolute;
-  text-align: center;
-  color: white;
-  border: 2px solid white;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /*****GALLERY 2*****/
@@ -393,15 +399,4 @@ figure {
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-/*****HOVER EFFEKTER*****/
-/* #first_section img:hover {
-  filter: opacity(0.5);
-} */
-
-.billed_tekst:hover {
-  color: #ef00bf;
-  border: 2px solid #ef00bf;
-  background-color: rgba(255, 255, 255, 0.5);
 }
