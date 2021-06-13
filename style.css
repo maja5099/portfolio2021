@@ -86,16 +86,17 @@ header .logo {
 #menuknap {
   display: inline-block;
   position: fixed;
+  font-family: "Futura PT book";
   font-size: 3rem;
   margin-top: 20px;
   margin-left: 20rem;
 }
 
 #menu {
-  padding-top: 50px;
   list-style-type: none;
   transition: transform 0.3s;
   transform-origin: top right;
+  padding-top: 75px;
 }
 
 @media only screen and (min-width: 1000px) {
