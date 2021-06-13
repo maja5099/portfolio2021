@@ -98,6 +98,12 @@ header .logo {
   transform-origin: top right;
 }
 
+@media (max-width: 1000px) {
+  #menu {
+    margin-top: 100px;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   #menuknap {
     display: none;
