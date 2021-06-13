@@ -236,26 +236,27 @@ header .logo {
 @media (min-width: 1000px) {
   .gallery {
     margin: 150px;
+    font-size: 4rem;
   }
   .tekst1 {
-    top: 10vw;
-    left: 9vw;
+    top: 12.5vw;
+    left: 8vw;
   }
   .tekst2 {
-    top: 10vw;
-    left: 40vw;
+    top: 12.5vw;
+    left: 38.5vw;
   }
   .tekst3 {
-    top: 40vw;
-    left: 9vw;
+    top: 43vw;
+    left: 8vw;
   }
   .tekst4 {
-    top: 40vw;
-    left: 40vw;
+    top: 43vw;
+    left: 38.5vw;
   }
   .tekst5 {
-    top: 68vw;
-    left: 24vw;
+    top: 70vw;
+    left: 22.7vw;
   }
 }
 
@@ -263,45 +264,44 @@ header .logo {
   .gallery {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 2rem;
   }
-  /* .tekst1 {
-    top: 35px;
-    left: 20px;
+  .tekst1 {
+    top: 19vw;
+    left: 10vw;
   }
   .tekst2 {
-    top: 35px;
-    left: 235px;
+    top: 19vw;
+    left: 58vw;
   }
   .tekst3 {
-    top: 250px;
-    left: 20px;
+    top: 66vw;
+    left: 10vw;
   }
   .tekst4 {
-    top: 250px;
-    left: 235px;
+    top: 66vw;
+    left: 58vw;
   }
   .tekst5 {
-    top: 445px;
-    left: 120px;
-  } */
+    top: 109vw;
+    left: 33.5vw;
+  }
 }
 
 #billed_tekst {
   position: absolute;
-  text-align: center;
-  font-size: 1.5rem;
-  color: white;
-  border: 3px solid white;
-  background-color: rgba(255, 255, 255, 0.4);
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-#billed_tekst:hover {
+#billed_tekst a {
+  text-decoration: none;
+  font-family: "Roboto";
+  text-align: center;
   color: #ef00bf;
-  border: 3px solid #ef00bf;
+  letter-spacing: 0.2rem;
+}
+
+#billed_tekst a:hover {
+  color: white;
 }
 
 figure {
