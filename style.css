@@ -85,7 +85,7 @@ header .logo {
 
 #menuknap {
   display: inline-block;
-  position: fixed;
+  position: absolute;
   font-family: "Futura PT book";
   font-size: 3rem;
   margin-top: 20px;
@@ -96,7 +96,6 @@ header .logo {
   list-style-type: none;
   transition: transform 0.3s;
   transform-origin: top right;
-  padding-top: 75px;
 }
 
 @media only screen and (min-width: 1000px) {
