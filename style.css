@@ -228,6 +228,12 @@ header .logo {
   }
 }
 
+@media (max-width: 700px) {
+  #om_section {
+    margin-bottom: 20px;
+  }
+}
+
 #om_section hr {
   border: 2px solid #ef00bf;
 }
