@@ -66,7 +66,7 @@ header nav ul li a {
   padding: 10px;
   color: black;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.7rem;
 }
 
 header a:hover {
@@ -418,11 +418,11 @@ header .logo {
   }
 }
 
-#first_section .tekst1 .tekst2 .tekst3 .tekst4 .tekst5 {
+.billed_tekst {
   position: absolute;
 }
 
-#first_section a {
+.billed_tekst a {
   text-decoration: none;
   font-family: "Roboto";
   text-align: center;
@@ -430,7 +430,7 @@ header .logo {
   letter-spacing: 0.2rem;
 }
 
-#first_section a:hover {
+.billed_tekst a:hover {
   color: #ef00bf;
 }
 
