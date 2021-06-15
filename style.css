@@ -231,7 +231,7 @@ header .logo {
 }
 
 #third_section p {
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 /*****LINK SECTION 1*****/
@@ -263,8 +263,8 @@ header .logo {
   font-family: "futura-pt", sans-serif;
   color: #82a177;
   font-size: 1.3rem;
-  border: solid 3px #82a177;
-  font-weight: 700;
+  border: solid 2px #82a177;
+  font-weight: 500;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -273,7 +273,7 @@ header .logo {
 
 #link_section1 a:hover {
   color: #ef00bf;
-  border: solid 3px #ef00bf;
+  border: solid 2px #ef00bf;
 }
 
 /*****LINK SECTION 2*****/
@@ -305,8 +305,8 @@ header .logo {
   font-family: "futura-pt", sans-serif;
   color: #82a177;
   font-size: 1.3rem;
-  border: solid 3px #82a177;
-  font-weight: 700;
+  border: solid 2px #82a177;
+  font-weight: 500;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -315,7 +315,7 @@ header .logo {
 
 #link_section2 a:hover {
   color: #ef00bf;
-  border: solid 3px #ef00bf;
+  border: solid 2px #ef00bf;
 }
 
 /*****BILLED SECTION*****/
