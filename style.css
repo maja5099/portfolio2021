@@ -218,7 +218,7 @@ header .logo {
 }
 
 #third_section hr {
-  border: 1px solid #ef00bf;
+  border: 4px solid #ef00bf;
 }
 
 #third_section .section_wrapper {
@@ -254,16 +254,17 @@ header .logo {
   font-family: "Futura PT book";
   color: #82a177;
   font-size: 1.3rem;
-  border: solid 2px #82a177;
+  border: solid 3px #82a177;
+  font-weight: 700;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-top: 50px;
 }
 
 #link_section1 a:hover {
   color: #ef00bf;
-  border: solid 2px #ef00bf;
+  border: solid 3px #ef00bf;
 }
 
 /*****LINK SECTION 2*****/
@@ -295,15 +296,16 @@ header .logo {
   font-family: "Futura PT book";
   color: #82a177;
   font-size: 1.3rem;
-  border: solid 2px #82a177;
+  border: solid 3px #82a177;
+  font-weight: 700;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #link_section2 a:hover {
   color: #ef00bf;
-  border: solid 2px #ef00bf;
+  border: solid 3px #ef00bf;
 }
 
 /*****BILLED SECTION*****/
@@ -333,7 +335,7 @@ header .logo {
 }
 
 #billed_section img {
-  border: solid 2px #ef00bf;
+  border: solid 1px black;
 }
 
 /*****OM SECTION*****/
@@ -359,7 +361,11 @@ header .logo {
 }
 
 #om_section hr {
-  border: 2px solid #ef00bf;
+  border: 4px solid #ef00bf;
+}
+
+#om_section img {
+  border: solid 1px black;
 }
 
 /*****GALLERY*****/
