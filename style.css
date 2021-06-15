@@ -528,3 +528,15 @@ figure {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/*****LOGO CREDIT*****/
+.credit {
+  font-family: "Futura PT book";
+  font-size: 0.7rem;
+}
+
+.credit a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
